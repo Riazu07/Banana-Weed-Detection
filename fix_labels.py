@@ -1,8 +1,8 @@
 import os
 
 folders = [
-r"C:\Users\Shasmeen Begum\yolov5\weed_dataset\labels\train",
-r"C:\Users\Shasmeen Begum\yolov5\weed_dataset\labels\val"
+    r"C:\Users\Shasmeen Begum\yolov5\weed_dataset\labels\train",
+    r"C:\Users\Shasmeen Begum\yolov5\weed_dataset\labels\val",
 ]
 
 for folder in folders:
@@ -10,7 +10,7 @@ for folder in folders:
         if file.endswith(".txt"):
             path = os.path.join(folder, file)
 
-            with open(path, "r") as f:
+            with open(path) as f:
                 lines = f.readlines()
 
             new_lines = []
