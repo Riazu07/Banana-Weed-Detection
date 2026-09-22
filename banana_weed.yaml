@@ -1,0 +1,6 @@
+train: weed_dataset/images/train
+val: weed_dataset/images/val
+
+nc: 1
+
+names: ['weed']
