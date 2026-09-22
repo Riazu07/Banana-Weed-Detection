@@ -3,4 +3,4 @@ val: weed_dataset/images/val
 
 nc: 1
 
-names: ['weed']
+names: ["weed"]
