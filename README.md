@@ -42,3 +42,4 @@ The model was trained using a custom banana-farm weed dataset.
 
 ```text
 0 - weed
+```
